@@ -2,6 +2,7 @@
 # 忽略.gitignore文件自身
 node_modules/
 package-lock.json
+bun.lock
 .gitignore
 
 # 忽略node_modules目录
@@ -12,6 +13,7 @@ node_modules/
 
 # 忽略所有.DS_Store文件
 .DS_Store
+*.db
 
 # 忽略所有.env文件
 .env
